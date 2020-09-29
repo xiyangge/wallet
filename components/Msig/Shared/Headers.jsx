@@ -81,7 +81,11 @@ export const WithdrawHeaderText = ({ step, customizingGas }) => {
   if (customizingGas)
     text = 'Please select the custom gas fee for this transaction.'
 
-  return <Text textAlign='center'>{text}</Text>
+  return (
+    <Text my={0} textAlign='center'>
+      {text}
+    </Text>
+  )
 }
 
 WithdrawHeaderText.propTypes = {

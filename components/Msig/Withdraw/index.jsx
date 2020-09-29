@@ -233,11 +233,7 @@ const Withdrawing = ({ address, balance, close }) => {
                       glyphAcronym='Wd'
                     />
                     <Box mt={6} mb={4}>
-                      <WithdrawHeaderText
-                        my={0}
-                        step={step}
-                        customizingGas={false}
-                      />
+                      <WithdrawHeaderText step={step} customizingGas={false} />
                     </Box>
                   </Card>
                 </>
